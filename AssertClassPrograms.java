@@ -57,8 +57,8 @@ public class AssertClassPrograms {
 	
 	@Test
 	public void testAssertArrayEquals() {
-		int[]a= {3,5,7};
-		int[]b= {3,5,7};
+		int[]a= {3,5,7,8};
+		int[]b= {3,5,7,8};
 		assertArrayEquals(a, b);
 	}
 	
